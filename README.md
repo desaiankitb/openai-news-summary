@@ -39,11 +39,11 @@ Run `main.py` to test parsing of news article:
     ```
 
 Run `app.py` to test news summarizer
+   
    ```bash 
     $ python app.py
     ```
     
 Click:
-    ```
+    
     [http://0.0.0.0:5000/](http://0.0.0.0:5000/)
-    ```

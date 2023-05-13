@@ -34,18 +34,21 @@ Add your [API key](https://beta.openai.com/account/api-keys) to the newly create
 
 Run `main.py` to test parsing of news article:
    
-    ```bash 
-    $ python main.py --url https://www.example.com/news/article?param1=value1&param2=value2
+   ```bash 
+    $ python main.py --url [url]
     ```
 
+Note: Replace [url] in step 5 with the actual URL you want to parse.
 
 Run `app.py` to test news summarizer
    
    ```bash 
     $ python app.py 
     ```
-    
 
 Click:
     
     [http://0.0.0.0:5000/](http://0.0.0.0:5000/)
+
+
+Feel free to explore and modify the code as needed.

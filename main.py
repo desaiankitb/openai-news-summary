@@ -2,16 +2,14 @@ import os
 import argparse
 from src.news.news_cms_parser import NewsCMSParser
 
-def main(url):
+def parseUrl(url):
     # Create an instance of the NewsCMSParser class
     parser = NewsCMSParser(url)
 
     # Parse the URL and retrieve the header and text
     header, text = parser.parse()
 
-    # Print the results
-    print("Header:", header)
-    print("Text:", text)
+    return header, text
 
 if __name__ == '__main__':
     # Parse command-line arguments
@@ -23,4 +21,9 @@ if __name__ == '__main__':
     url = args.url
 
     # Call the main function
-    main(url)
+    header, text = parseUrl(url)
+
+    # Print the results
+    print("Header:", header)
+    print("Text:", text)
+

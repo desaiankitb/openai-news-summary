@@ -32,7 +32,18 @@ Make a copy of the example environment variables file:
 
 Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
 
-Run the app:
+Run `main.py` to test parsing of news article:
+   
     ```bash 
     $ python main.py --url https://www.example.com/news/article?param1=value1&param2=value2
+    ```
+
+Run `app.py` to test news summarizer
+   ```bash 
+    $ python app.py
+    ```
+    
+Click:
+    ```
+    [http://0.0.0.0:5000/](http://0.0.0.0:5000/)
     ```

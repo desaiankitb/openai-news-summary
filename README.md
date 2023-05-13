@@ -38,12 +38,14 @@ Run `main.py` to test parsing of news article:
     $ python main.py --url https://www.example.com/news/article?param1=value1&param2=value2
     ```
 
+
 Run `app.py` to test news summarizer
    
    ```bash 
-    $ python app.py
+    $ python app.py 
     ```
     
+
 Click:
     
     [http://0.0.0.0:5000/](http://0.0.0.0:5000/)

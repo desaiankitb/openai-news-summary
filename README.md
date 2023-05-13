@@ -11,28 +11,28 @@ The `news_cms_parser.py` file contains the `NewsCMSParser` class, which encapsul
 
 To run the code, you can execute the main.py file and pass the URL as a command-line argument. For example:
 
-Create a new virtual environment:
+1. Create a new virtual environment:
 
    ```bash
    $ python -m venv venv
    $ . venv/bin/activate
    ```
 
-Install the requirements:
+2. Install the requirements:
 
    ```bash
    $ pip install -r requirements.txt
    ```
 
-Make a copy of the example environment variables file:
+3. Make a copy of the example environment variables file:
 
    ```bash
    $ cp .env.example .env
    ```
 
-Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+4. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
 
-Run `main.py` to test parsing of news article:
+5. Run `main.py` to test parsing of news article:
    
    ```bash 
     $ python main.py --url [url]
@@ -40,13 +40,13 @@ Run `main.py` to test parsing of news article:
 
 Note: Replace [url] in step 5 with the actual URL you want to parse.
 
-Run `app.py` to test news summarizer
+6. Run `app.py` to test news summarizer
    
    ```bash 
     $ python app.py 
     ```
 
-Click:
+7. Click:
     
     [http://0.0.0.0:5000/](http://0.0.0.0:5000/)
 

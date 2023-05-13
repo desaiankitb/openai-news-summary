@@ -1,5 +1,5 @@
 openai-news-summary
-==============================
+=============================
 
 News to summary using openai
 
